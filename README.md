@@ -1,3 +1,5 @@
+<pre>
+```bash
 # MaxScale Docker Setup and Query Script
 
 This repository provides a setup guide and a Python script to interact with a MaxScale database proxy instance. It includes instructions to install the necessary dependencies, set up the MaxScale container, and run the Python script to perform various queries on the database.
@@ -64,7 +66,7 @@ Expected output:
 
 3. Navigate to the Python script file:
    ```
-  cd maxscale-docker/maxscale
+   cd maxscale-docker/maxscale
    ```
 
 4. Open the `main.py` file for editing:
