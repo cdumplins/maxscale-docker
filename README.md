@@ -27,12 +27,14 @@ git clone https://github.com/cdumplins/maxscale-docker
 
 
 4. Navigate to the MaxScale directory:
+
 ```
 cd maxscale-docker/maxscale
 ```
 
 
 5. Run the Docker Compose YAML file:
+
 ```
 docker-compose up
 ```
@@ -57,20 +59,19 @@ sudo apt install python3-pip
 pip3 install mysql-connector
 
 
-
 2. Identify the IP address of the MaxScale container:
 docker inspect maxscale-maxscale-1
 
-`
-Look for the "IPAddress": "<IP_ADDRESS>" key-value pair and **copy the IP address value**.
+`Look for the "IPAddress": "<IP_ADDRESS>" key-value pair and **copy the IP address value**.
 
 3. Navigate to the Python script file:
+
 ```
 cd ../..
 ```
 
-
 4. Open the `main.py` file for editing:
+
 ```
 nano main.py
 ```
@@ -78,9 +79,12 @@ nano main.py
 
 5. Locate the line `host = "<IP_ADDRESS>"` and replace `<IP_ADDRESS>` with the IP address you copied in the previous step.
 
+
 6. Save the file by pressing Ctrl + O, then exit the editor with Ctrl + X.
 
+
 7. Run the Python script:
+
 ```
 python3 main.py
 ````
@@ -96,6 +100,7 @@ Expected outputs:
 **Shutting Down and Removing Containers**
 
 To stop and remove the Docker containers, use the following command:
+
 ```
 docker-compose down -v
 ```
