@@ -41,15 +41,13 @@ docker-compose up
 sudo docker-compose exec maxscale maxctrl list servers
 
 
-Expected output:
-```
-┌─────────┬──────────┬──────┬─────────────┬─────────────────┬──────┬─────────────────┐
-│ Server │ Address │ Port │ Connections │ State │ GTID │ Monitor │
-├─────────┼──────────┼──────┼─────────────┼─────────────────┼──────┼─────────────────┤
-│ calvin1 │ primary1 │ 3306 │ 0 │ Master, Running │ │ MariaDB-Monitor │
-├─────────┼──────────┼──────┼─────────────┼─────────────────┼──────┼─────────────────┤
-│ calvin2 │ primary2 │ 3306 │ 0 │ Running │ │ MariaDB-Monitor │
-└─────────┴──────────┴──────┴─────────────┴─────────────────┴──────┴─────────────────┘
+   Expected output:
+
+   | Server  | Address  | Port | Connections | State           | GTID | Monitor         |
+   |---------|----------|------|-------------|-----------------|------|-----------------|
+   | calvin1 | primary1 | 3306 | 0           | Master, Running |      | MariaDB-Monitor |
+   | calvin2 | primary2 | 3306 | 0           | Running         |      | MariaDB-Monitor |
+
 ```
 
 ## Running the Python Script
