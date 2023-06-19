@@ -64,7 +64,7 @@ Expected output:
 
 3. Navigate to the Python script file:
    ```
-   cd ../..
+  cd maxscale-docker/maxscale
    ```
 
 4. Open the `main.py` file for editing:
@@ -99,4 +99,3 @@ docker-compose down -v
 This will remove the containers and associated volumes.
 ```
 
-You can adjust the indentation within the code block as needed to maintain the desired formatting.
