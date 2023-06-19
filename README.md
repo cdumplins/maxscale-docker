@@ -73,7 +73,7 @@ Expected output:
    nano main.py
    ```
 
-5. Locate the line `host` and replace it with the IP address you copied in the previous step.
+5. Locate the line `host`"IP_ADDRESS"  and replace it with the IP_ADDRESS you copied in the previous step.
 
 6. Save the file by pressing Ctrl + O, then exit the editor with Ctrl + X.
 
