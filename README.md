@@ -76,15 +76,14 @@ nano main.py
 ```
 
 
-
 5. Locate the line `host = "<IP_ADDRESS>"` and replace `<IP_ADDRESS>` with the IP address you copied in the previous step.
 
 6. Save the file by pressing Ctrl + O, then exit the editor with Ctrl + X.
 
 7. Run the Python script:
+```
 python3 main.py
-
-
+````
 
 Expected outputs:
 - Largest Zipcode in zipcodes_one
@@ -94,7 +93,9 @@ Expected outputs:
 
 **Note:** If you start a new Docker container, it will have a new IP address assigned. In that case, repeat steps 2-5 to update the IP address in the Python script.
 
-## Shutting Down and Removing Containers
+**Shutting Down and Removing Containers**
 
 To stop and remove the Docker containers, use the following command:
+```
 docker-compose down -v
+```
