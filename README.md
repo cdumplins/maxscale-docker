@@ -73,7 +73,7 @@ Expected output:
    nano main.py
    ```
 
-5. Locate the line `host = "&lt;IP_ADDRESS&gt;"` and replace `&lt;IP_ADDRESS&gt;` with the IP address you copied in the previous step.
+5. Locate the line `host` and replace it with the IP address you copied in the previous step.
 
 6. Save the file by pressing Ctrl + O, then exit the editor with Ctrl + X.
 
@@ -98,5 +98,5 @@ docker-compose down -v
 ```
 
 This will remove the containers and associated volumes.
-```
+
 
