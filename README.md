@@ -87,7 +87,6 @@ python3 main.py
 ```
 
 
-
 Expected outputs:
 - Largest Zipcode in zipcodes_one
 - Zipcodes in Kentucky
