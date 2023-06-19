@@ -80,7 +80,7 @@ nano main.py
 7. Run the Python script:
 ```
 python3 main.py
-````
+```
 
 Expected outputs:
 - Largest Zipcode in zipcodes_one
