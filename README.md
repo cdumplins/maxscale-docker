@@ -42,6 +42,7 @@ sudo docker-compose exec maxscale maxctrl list servers
 
 
 Expected output:
+```
 ┌─────────┬──────────┬──────┬─────────────┬─────────────────┬──────┬─────────────────┐
 │ Server │ Address │ Port │ Connections │ State │ GTID │ Monitor │
 ├─────────┼──────────┼──────┼─────────────┼─────────────────┼──────┼─────────────────┤
