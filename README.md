@@ -38,12 +38,13 @@ This repository provides a setup guide and a Python script to interact with a Ma
    sudo docker-compose exec maxscale maxctrl list servers
    ```
 
-   Expected output:
+Expected output:
+
 ```
-   | Server  | Address  | Port | Connections | State           | GTID | Monitor         |
-   |---------|----------|------|-------------|-----------------|------|-----------------|
-   | calvin1 | primary1 | 3306 | 0           | Master, Running |      | MariaDB-Monitor |
-   | calvin2 | primary2 | 3306 | 0           | Running         |      | MariaDB-Monitor |
+| Server  | Address  | Port | Connections | State           | GTID | Monitor         |
+|---------|----------|------|-------------|-----------------|------|-----------------|
+| calvin1 | primary1 | 3306 | 0           | Master, Running |      | MariaDB-Monitor |
+| calvin2 | primary2 | 3306 | 0           | Running         |      | MariaDB-Monitor |
 ```
 
 ## Running the Python Script
@@ -97,5 +98,5 @@ docker-compose down -v
 
 This will remove the containers and associated volumes.
 ```
-</pre>
+
 You can adjust the indentation within the code block as needed to maintain the desired formatting.
